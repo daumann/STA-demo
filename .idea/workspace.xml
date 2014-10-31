@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f344b59c-4781-4a37-ba0a-86ea4105cd7b" name="Default" comment="" />
+    <ignored path="meteors.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="meteors" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="filter.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filter.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="153" column="1" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0" vertical-offset="2132" max-vertical-offset="3348">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppAnalytics.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AppAnalytics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="29" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.113300495" vertical-offset="723" max-vertical-offset="1872">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TVGeoAnalytics.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TVGeoAnalytics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="52" selection-start="436" selection-end="436" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dc.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="317" column="0" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.0" vertical-offset="4789" max-vertical-offset="5814">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter2.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filter2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="15" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="1871" max-vertical-offset="3366">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="barChart.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barChart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="185" column="45" selection-start="5747" selection-end="5747" vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="4428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crossfilter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/crossfilter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="931" column="53" selection-start="30206" selection-end="30211" vertical-scroll-proportion="0.0" vertical-offset="15587" max-vertical-offset="23184">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drawMap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-5.266667" vertical-offset="796" max-vertical-offset="4878">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataDefinition.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataDefinition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="4" selection-start="4" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="82332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/dataDefinition" />
+        <option value="$PROJECT_DIR$/dataDefinition.js" />
+        <option value="$PROJECT_DIR$/logData.csv" />
+        <option value="$PROJECT_DIR$/filter.css" />
+        <option value="$PROJECT_DIR$/barChart.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/dc.css" />
+        <option value="$PROJECT_DIR$/filter2.css" />
+        <option value="$PROJECT_DIR$/../dc.js/web/examples/cust.html" />
+        <option value="$PROJECT_DIR$/cust.html" />
+        <option value="$PROJECT_DIR$/AppAnalytics.html" />
+        <option value="$PROJECT_DIR$/drawMap.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="375" />
+    <option name="y" value="227" />
+    <option name="width" value="1463" />
+    <option name="height" value="794" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="STA-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f344b59c-4781-4a37-ba0a-86ea4105cd7b" name="Default" comment="" />
+      <created>1414077103189</created>
+      <updated>1414077103189</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="375" y="227" width="1463" height="794" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18933699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16383308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/filter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="1" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0" vertical-offset="1963" max-vertical-offset="3348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dc.js/web/examples/cust.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="24" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="0" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.0" vertical-offset="4789" max-vertical-offset="5814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="15" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="1871" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="45" selection-start="5747" selection-end="5747" vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="4428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/crossfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="931" column="53" selection-start="30206" selection-end="30211" vertical-scroll-proportion="0.0" vertical-offset="15587" max-vertical-offset="23184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="39" selection-start="5624" selection-end="5624" vertical-scroll-proportion="0.0" vertical-offset="3474" max-vertical-offset="4824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="14" selection-start="2291" selection-end="2293" vertical-scroll-proportion="0.0" vertical-offset="2395" max-vertical-offset="3348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="43" selection-start="2485" selection-end="2485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataDefinition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="43" selection-start="5982" selection-end="5986" vertical-scroll-proportion="0.0" vertical-offset="3474" max-vertical-offset="4320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/crossfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="243" column="54" selection-start="7681" selection-end="7683" vertical-scroll-proportion="0.0" vertical-offset="4169" max-vertical-offset="23184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="14" selection-start="2291" selection-end="2293" vertical-scroll-proportion="0.0" vertical-offset="2459" max-vertical-offset="3348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="35" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="4698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataDefinition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="20" selection-start="2221" selection-end="2224" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="4320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/crossfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="243" column="54" selection-start="7681" selection-end="7683" vertical-scroll-proportion="0.0" vertical-offset="4169" max-vertical-offset="23184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="84" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="4086">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="84" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="4158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="45" selection-start="5747" selection-end="5747" vertical-scroll-proportion="0.0" vertical-offset="3475" max-vertical-offset="4428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/crossfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="931" column="53" selection-start="30206" selection-end="30211" vertical-scroll-proportion="0.0" vertical-offset="15587" max-vertical-offset="23184">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="15" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="1871" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="0" selection-start="4712" selection-end="4712" vertical-scroll-proportion="0.0" vertical-offset="4789" max-vertical-offset="5814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dc.js/web/examples/cust.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="24" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.06656101" vertical-offset="1686" max-vertical-offset="2322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="1" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.0" vertical-offset="1963" max-vertical-offset="3348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TVGeoAnalytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="52" selection-start="436" selection-end="436" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-5.266667" vertical-offset="796" max-vertical-offset="4878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataDefinition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppAnalytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="29" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.113300495" vertical-offset="723" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
