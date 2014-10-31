@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="filter.css" />
+<body>
+	<span>
+		<span id="instructions">
+			Mouseover and click map for details. Click and drag histograms to crossfilter.
+		</span>
+	</span>
+	<div id="charts">
+		<div id="map" class="display"></div>
+
+		<div id="logTime-chart" class="chart display">
+			<div class="title">Time of Day (UTC)</div>
+		</div>
+
+		<div id="userCount-chart" class="chart display">
+			<div class="title">Active Television Count</div>
+		</div>
+	</div>
+
+</body>
+
+        
+<script src="lib/d3.js"></script>
+<script src="lib/topojson.js"></script>
+<script src="lib/queue.js"></script>
+<script src="lib/crossfilter.js"></script>
+<script src="dataDefinition.js"></script>
+<script src="barChart.js"></script>
+<script src="drawMap.js"></script>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dc.js - Number Display Example</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="dc.css"/>
+    <link rel="stylesheet" href="filter2.css" />
+</head>
+<body>
+
+
+<span>
+		<span id="instructions">
+			Select applications, filter by education/ entertainment user groups or drag the histogram to crossfilter.
+		</span>
+	</span>
+<div id="charts">
+    <div id="chart-row-spenders" class="display"></div>
+    
+    <div id="chart-ring-year" class="chart display">
+        <div class="title">Entertainment (0) or education (1) focused users</div>
+    </div>
+
+    <div id="chart-hist-spend" class="chart display">
+        <div class="title">Average Time</div>
+    </div>
+</div>
+
+
+
+<script src="lib/d3.js"></script>
+
+<script src="lib/crossfilter.js"></script>
+
+
+
+<script type="text/javascript" src="dc.js"></script>
+<script type="text/javascript">
+
+var yearRingChart   = dc.pieChart("#chart-ring-year"),
+    spendHistChart  = dc.barChart("#chart-hist-spend"),
+    spenderRowChart = dc.rowChart("#chart-row-spenders");
+
+
+d3.csv("Data-AppAnalytics.csv", function(error, spendData) {
+// normalize/parse data
+    
+    console.debug(spendData);
+spendData.forEach(function(d) {
+    console.debug(d);
+    console.debug(d.Spent);
+    d.Spent = d.Spent;//.match(/\d+/);
+
+    d.totalTime = Math.round(d.totalTime);//.match(/\d+/);
+    
+});
+
+// set crossfilter
+var ndx = crossfilter(spendData),
+    yearDim  = ndx.dimension(function(d) {return +d.Year;}),
+    spendDim = ndx.dimension(function(d) {console.debug("returning Spent:", d.Spent); return Math.floor(d.Spent/10);}),
+    timeDim = ndx.dimension(function(d) {console.debug("returning Time:", d.totalTime); return Math.floor(d.totalTime/10);}),
+    nameDim  = ndx.dimension(function(d) {return d.Name;}),
+    spendPerYear = yearDim.group().reduceSum(function(d) {return +d.Spent;}),
+    spendPerName = nameDim.group().reduceSum(function(d) {return +d.Spent;}),
+    spendHist    = spendDim.group().reduceCount();
+    timeHist    = timeDim.group().reduceCount();
+
+yearRingChart
+    .width(400).height(200)
+    .dimension(yearDim)
+    .group(spendPerYear)
+    .innerRadius(50);
+
+spendHistChart
+    .width(600).height(200)
+    .dimension(timeDim)
+    .group(timeHist)
+    .x(d3.scale.linear().domain([0,100]))
+    .elasticY(true);
+
+spendHistChart.xAxis().tickFormat(function(d) {return d*10}); // convert back to base unit
+spendHistChart.yAxis().ticks(2);
+
+spenderRowChart
+    .width(1000).height(200)
+    .dimension(nameDim)
+    .group(spendPerName)
+    .elasticX(true);
+
+dc.renderAll();
+
+});
+
+</script>
+
+</body>
+</html>
