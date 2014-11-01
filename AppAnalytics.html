@@ -21,8 +21,8 @@
         <div class="title">Entertainment (0) or education (1) focused users</div>
     </div>
 
-    <div id="chart-hist-spend" class="chart display">
-        <div class="title">Average Time</div>
+    <div id="chart-hist-spend" class="chart display" style="float: right">
+        <div class="title">Average time with app</div>
     </div>
 </div>
 
@@ -73,7 +73,7 @@ yearRingChart
     .innerRadius(50);
 
 spendHistChart
-    .width(600).height(200)
+    .width(400).height(200)
     .dimension(timeDim)
     .group(timeHist)
     .x(d3.scale.linear().domain([0,100]))
