@@ -1047,8 +1047,8 @@ dc.baseMixin = function (_chart) {
 
     _chart.turnOffControls = function () {
         if (_root) {
-            _chart.selectAll('.reset').style('display', 'none');
-            _chart.selectAll('.filter').style('display', 'none').text(_chart.filter());
+         //   _chart.selectAll('.reset').style('display', 'none');
+         //   _chart.selectAll('.filter').style('display', 'none').text(_chart.filter());
         }
         return _chart;
     };
