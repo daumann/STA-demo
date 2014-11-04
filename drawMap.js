@@ -33,7 +33,7 @@ var borders = svg.append("g");
 
 var impacts = svg.append("g");
 
-var locationScale = d3.scale.pow().exponent(.5).domain([0, 10, 50, 100, 200]);
+var locationScale = d3.scale.pow().exponent(.5).domain([0, 1000, 10000, 50000, 130000]);
 
 
 var colorScale = d3.scale.linear().domain([0, 0.001, 0.01, 0.1, 0.2]);
@@ -115,7 +115,7 @@ function ready(error, topology, rawlocations, pics){
 	locations.sort(function(a, b){return a.id - b.id;})
 
 	locationScale
-		.range([2, 4, 8, 10, 12]);
+		.range([1, 4, 8, 10, 12]);
 
     console.debug(locations);
 
@@ -190,7 +190,7 @@ function ready(error, topology, rawlocations, pics){
 				.dimension(mass)
 				.group(masses)
                 .x(d3.scale.pow().exponent(0.1)  //.x(d3.scale.log().base([lb])
-				.domain([1,500])
+				.domain([1,130000])
 				.rangeRound([0,20*24]))
 
 	];
