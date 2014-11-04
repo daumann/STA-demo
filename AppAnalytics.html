@@ -40,7 +40,11 @@
 var yearRingChart   = dc.pieChart("#chart-ring-year"),
     spendHistChart  = dc.barChart("#chart-hist-spend"),
     spenderRowChart = dc.rowChart("#chart-row-spenders");
-
+var colorID1=0;
+var colorID2=0;
+var colorID3=0;
+var colors1 = ["#28583E","#D79B43"]
+var colors2 = ["#5D7A28","#4A8567","#C7931B","#C66619","#973615"]
 
 d3.csv("Data-AppAnalytics.csv", function(error, spendData) {
 // normalize/parse data
@@ -70,27 +74,32 @@ yearRingChart
     .width(400).height(200)
     .dimension(yearDim)
     .group(spendPerYear)
-    .innerRadius(50);
+    .innerRadius(50)
+        .colors( function(d,i){ colorID1++; if (colorID1 >1) colorID1=0; return colors1[colorID1];});
 
 spendHistChart
     .width(600).height(200)
     .dimension(timeDim)
     .group(timeHist)
     .x(d3.scale.linear().domain([0,100]))
-    .elasticY(true);
+    .elasticY(true)
+        .colors("#5B0900");
 
 spendHistChart.xAxis().tickFormat(function(d) {return d*10}); // convert back to base unit
 spendHistChart.yAxis().ticks(2);
 
+    var colors3 = ["#5D7A28","#4A8567","#C7931B","#C66619","#973615"]
 spenderRowChart
     .width(1000).height(200)
     .dimension(nameDim)
     .group(spendPerName)
-    .elasticX(true);
+    .elasticX(true)
+        .colors( function(d,i){ colorID3++; if (colorID3 >4) colorID3=0; return colors3[colorID3];});
 
-dc.renderAll();
+    dc.renderAll();
 
 });
+
 
 </script>
 
