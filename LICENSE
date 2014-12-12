@@ -1,0 +1,30 @@
+COPYRIGHT AND CONFIDENTIALITY INFORMATION NOTICE
+
+Copyright © 2014 Technicolor Delivery Technologies, SAS - All Rights Reserved
+
+Distribution  and copying  of  all and/or  any documentation  provided  in or  with  this application,  and use  and
+communication of their contents as  well as any output resulting from the use  of such application and/or associated
+documentation are not permitted without express written authorization from Technicolor.
+
+All programs  delivered in  this application  are proprietary programs  and know-how  of Technicolor  its affiliates
+and/or,  where applicable,  its licensors,  and is  protected  as an  unpublished work  under applicable  authorship
+protection laws as  recognized by the Bern Convention.  Recipient of the application shall retain  these programs in
+confidence and is not permitted  to use, make all and/or any copies thereof, or  distribution of such application or
+part thereof nor any output work resulting from such use  of the application, other than as expressly permitted in a
+written agreement with Technicolor, unless otherwise expressly allowed by applicable laws.
+
+Notwithstanding the foregoing, Technicolor hereby informs you that  some portions of the application are open source
+modules from third  party. Such open source software  are distributed and not sublicensed by  Technicolor, under the
+terms of the applicable  open source software license terms (available from the  readme files). However, Technicolor
+code is a separate work. None of such third party open source software is used within any portion of code written by
+Technicolor. The Technicolor code is a separate software and is only linked to such third party open source software
+module or library  (e.g. under Apache 2.0 and EPL  V.1) “dynamically” and is not a  “Contribution” and shall
+not be deemed in any manner as being a “Contribution” to such third party software.
+
+Technicolor is  registered trademark and  trade name of  Technicolor, and  shall not be  used in any  manner without
+express written authorization from Technicolor.
+
+Technicolor assumes no responsibility or liability for any errors or inaccuracies that may appear in these documents
+or the application or part thereof. The content of these documents is furnished for informational and evaluation use
+only, and  may be subject  to change without  notice, and should  not be construed  as a commitment  by Technicolor,
+UNLESS Otherwise agreed by Technicolor in a long form agreement.
