@@ -39,7 +39,7 @@ var locationScale = d3.scale.pow().exponent(.5).domain([0, 1000, 10000, 50000, 1
 var colorScale = d3.scale.linear().domain([0, 0.001, 0.01, 0.1, 0.2]);
 colorScale
     .range(["#3075FF", "#075AFF", "#004FF1", "#0149DC", "#0043C8"]);
-var request_countcale = d3.scale.linear().domain([0, 50, 100, 1000, 20000, 400000]);
+var request_countcale = d3.scale.linear().domain([0, 25, 50, 100, 500, 1000]);
 
 var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
@@ -102,7 +102,7 @@ function ready(error, topology, rawlocations, pics){
       //  d.errorCount = +d.error_count; 
 		d.mass = +d.user_count;
         //console.debug( "returning: " + ((new Date(d.timestamp).getDate()-14)*24) + new Date(d.timestamp).getHours()  );
-	 	d.timestamp = d.timestamp*2;//+(  ((new Date(d.timestamp).getDate()-14)*24) + new Date(d.timestamp).getHours()  );
+	 	d.timestamp = d.timestamp;//+(  ((new Date(d.timestamp).getDate()-14)*24) + new Date(d.timestamp).getHours()  );
         
 		d.id = idcount;
         idcount--;
@@ -115,7 +115,7 @@ function ready(error, topology, rawlocations, pics){
 	locations.sort(function(a, b){return a.id - b.id;})
 
 	locationScale
-		.range([1, 4, 8, 10, 12]);
+		.range([2, 4, 8, 10, 12]);
 
     console.debug(locations);
 
@@ -183,8 +183,8 @@ function ready(error, topology, rawlocations, pics){
 				.dimension(timestamp)
 				.group(timestamps)
 			.x(d3.scale.linear()
-				.domain([0,48])
-				.rangeRound([0, 20*24-5])),
+				.domain([1447003846332,1448573846332])
+				.rangeRound([0, 40*24-5])),
 
 		barChart()
 				.dimension(mass)
