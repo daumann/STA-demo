@@ -172,21 +172,13 @@ console.debug("set max to "+group.top(1)[0].value)
   chart.x = function(_) {
     if (!arguments.length) return x;
     x = _;
-    if (x.domain()[1] < 250){
+    if (x.domain()[1] < 250000000000000){
       //format years differently than mass
      // axis.scale(x).ticks(10).tickFormat(d3.format(""));
-        axis.scale(x).ticks(5).tickFormat(function(d, i){
+        axis.scale(x).ticks(15).tickFormat(function(d, i){
             console.debug("ttttt" + d);
-          //  ((new Date(d.timestamp).getDate()-14)*24) + new Date(d.timestamp).getHours()
-                var toReturn;
-                if(d <  24){
-                    toReturn = d/2+ " am";
-                }
-                else{
-                    toReturn = ((d/2)-12)+ " pm";
-                }
-            return  toReturn;//(new Date(1413237600000 + (60*60*d*1000)).toDateString()); //"Year1 Year2, etc depending on the tick value - 0,1,2,3,4"
-            
+            return  new Date(d).getMonth() + "/" +  new Date(d).getDate();//(new Date(1413237600000 + (60*60*d*1000)).toDateString()); //"Year1 Year2, etc depending on the tick value - 0,1,2,3,4"
+
         }); //d3.format(10,"+%"));
     }
     else{
