@@ -46,11 +46,6 @@ var tooltip = d3.select("body").append("div")
     .style("opacity", 1e-6)
     .style("background", "rgba(250,250,250,.7)");
 
-tooltip.append("img")
-	.attr("id", "tooltipImg")
-	.attr("height", 55)
-	.attr("width", 200)
-	.style("opacity", "1");
 
 queue()
 	.defer(d3.json, "worldTopo.json")
