@@ -247,9 +247,6 @@ var printDetails = [
 
 function updateDetails(location){
 	var image = new Image();
-	image.onload = function(){
-		document.getElementById("tooltipImg").src = 'pictures/VirdataLogo1.png';}
-	image.src = 'pictures/VirdataLogo1.png';
 
 	tooltip.selectAll("div").remove();
 	tooltip.selectAll("div").data(printDetails).enter()
